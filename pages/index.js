@@ -9,6 +9,7 @@ const Index = () => {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
       <Head>
+        <title>Vanishing Giants</title>
         <script dangerouslySetInnerHTML={{ __html: datawrapperScript }} />
       </Head>
       <iframe
