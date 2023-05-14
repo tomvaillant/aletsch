@@ -81,6 +81,7 @@ const Index = () => {
       <div className={styles.overlay}>
         <h1 className={styles.title}>Vanishing Giants</h1>
         <p className={styles.subtitle}>The decline of Swiss Glaciers</p>
+        <img src="/images/scroll.png" alt="scroll" className={styles.scrollImage} />
       </div>
       <img src="/images/hero.png" alt="Your Image" className={styles.image} />
       <div className={styles.textContainer}>
